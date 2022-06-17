@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type = "text/css" href = "format.css">
+</head>
+<body>
+    <div id = "title"> Chaotic Magnetic Pendulum </div>
+    <button id="start" onclick = "start()"> Start Simulation </button>
+    <button id="addSim" onclick = "addSim()"> Add Simulation w/ Inputed Data </button>
+    <button id="addM" onclick = "MSO()"> Add m Simulations w/ Offsets </button>
+
+    <div id="setupLabel"> Setup </div>
+
+    <div id="nmagsLabel"> Number of Magnets </div>
+    <input id = "nmagsInput"/>
+
+    <div id="hLabel"> h Parameter </div>
+    <input id = "hInput"/>
+
+    <div id="bLabel"> Friction Coefficient b </div>
+    <input id = "bInput"/>
+
+    <div id="gLabel""> Gravitational Acceleration </div>
+    <input id = "gInput"/>
+
+    <div id="strengthLabel""> Magnet Strength </div>
+    <input id = "strengthInput"/>
+
+    <div id="scaleLabel""> Scale (of magnet circle) </div>
+    <input id = "scaleInput"/>
+
+    <div id="xLabel""> Starting Position X </div>
+    <input id = "xInput"/>
+
+    <div id="yLabel""> Starting Position Y </div>
+    <input id = "yInput"/>
+
+    <div id="mLabel"> m Simulations </div>
+    <input id="mInput"/>
+
+    <div id="yLabel2"> Y </div>
+    <input id = "yInput2"/>
+    <div id="yOffsetLabel"> Y Offset </div>
+    <input id="yOffsetInput"/>
+    
+    <div id="xLabel2"> X </div>
+    <input id = "xInput2"/>
+    <div id="xOffsetLabel"> X Offset </div>
+    <input id="xOffsetInput"/>
+
+    <canvas id="canvas" width = "340px" height = "340px"></canvas>
+    <canvas id="xCanvas" width = "340px" height = "340px"></canvas>
+    <canvas id ="yCanvas" width = "340px" height = "340px"></canvas>
+    <canvas id="graphCanvas" width = 340px" height = "340px"></canvas>
+
+    <script src="pend.js"></script>
+</body>
+</html>

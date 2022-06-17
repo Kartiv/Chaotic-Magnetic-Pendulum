@@ -1,0 +1,196 @@
+body{
+    background-color:darkgray;
+    overflow: scroll;
+    height: 150vh;
+}
+
+#title{
+    position:absolute;
+    font-size:40px;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+#setupLabel{
+    position:absolute;
+    top:10%;
+    font-size:30px;
+}
+
+#nmagsLabel{
+    position:absolute;
+    top:15%;
+}
+#nmagsInput{
+    position:absolute;
+    top:17%;
+}
+
+#hLabel{
+    position:absolute;
+    top:20%;
+}
+#hInput{
+    position:absolute;
+    top:22%;
+}
+
+#bLabel{
+    position:absolute;
+    top:25%;
+}
+#bInput{
+    position:absolute;
+    top:27%;
+}
+
+#gLabel{
+    position:absolute;
+    top:30%;
+}
+#gInput{
+    position:absolute;
+    top:32%;
+}
+
+#strengthLabel{
+    position:absolute;
+    top:35%;
+}
+#strengthInput{
+    position:absolute;
+    top:37%;
+}
+
+#scaleLabel{
+    position:absolute;
+    top:40%;
+}
+#scaleInput{
+    position:absolute;
+    top:42%;
+}
+
+#xLabel{
+    position:absolute;
+    top:45%;
+}
+#xInput{
+    position:absolute;
+    top:47%;
+}
+
+#yLabel{
+    position:absolute;
+    top:50%;
+}
+#yInput{
+    position:absolute;
+    top:52%;
+}
+
+#mLabel{
+    position:absolute;
+    top:25%;
+    left:500px;
+}
+#mInput{
+    position:absolute;
+    left:500px;
+    top:27%;
+}
+
+#xLabel2{
+    position:absolute;
+    left:500px;
+    top:30%;
+}
+#xInput2{
+    position:absolute;
+    top:32%;
+    left:500px;
+}
+
+#xOffsetLabel{
+    position:absolute;
+    top:35%;
+    left:500px;
+}
+#xOffsetInput{
+    position:absolute;
+    top:37%;
+    left:500px;
+}
+
+#yLabel2{
+    position:absolute;
+    left:500px;
+    top:40%;
+}
+#yInput2{
+    position:absolute;
+    top:42%;
+    left:500px;
+}
+
+#yOffsetLabel{
+    position:absolute;
+    top:45%;
+    left:500px;
+}
+#yOffsetInput{
+    position:absolute;
+    top:47%;
+    left:500px;
+}
+
+#canvas{
+    position:absolute;
+    border:solid;
+    border-color:black; 
+    background-color:black;
+    left:Calc(50% + 50px + 7px);
+
+}
+
+#xCanvas{
+    position:absolute;
+    top:355px;
+    left:Calc(50% + 50px + 7px);
+    background-color:black;
+    border:solid;
+    border-color:black;
+}
+
+#yCanvas{
+    position:absolute;
+    top:355px;
+    left:Calc(50% + 355px + 50px);
+    background-color: black;
+    border:solid;
+    border-color:black;
+}
+
+#graphCanvas{
+    position:absolute;
+    left:Calc(50% + 355px + 50px);
+    background-color: black;
+    border:solid;
+    border-color:black;
+}
+ 
+#start{
+    position:absolute;
+    top:80%;
+}
+
+#addSim{
+    position:absolute;
+    top:60%;
+}
+
+#addM{
+    position:absolute;
+    top:60%;
+    left:500px;
+}
